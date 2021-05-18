@@ -13,8 +13,11 @@ apt install python
 apt install pip
 pip install --upgrade pip
 pip install requirments.txt
+chmod +x 20
 sleep 1
 echo ""
 echo "Finish Installing!"
+echo ""
+echo "usage: ./20"
 echo ""
 exit 1
