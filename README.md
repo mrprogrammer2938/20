@@ -3,7 +3,7 @@ hacking tool menu!
 
 This code write by [Ms.nope](https://github.com/msprogrammer2938)
 
-**installing**
+**Installing**
 ```
 git clone https://github.com/msprogrammer2938/20
 
