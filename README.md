@@ -14,7 +14,7 @@ bash install.sh
 ./20
 ```
 
-##[Ms.nope](https://github.com/msprogrammer2938) Account...
+## [Ms.nope](https://github.com/msprogrammer2938) Account...
 [Instagram](https://instagram.com/programmer2938)
 
 ## [LICENSE](https://github.com/msprogrammer2938/20/blob/main/LICENSE)
