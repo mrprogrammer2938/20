@@ -1,0 +1,170 @@
+#!/usr/bin/python3
+# This code write by Ms.nope
+from colorama import Fore,init
+from logs import banner
+import os
+import time
+import subprocess
+import sys
+init()
+class color:
+      red = '\033[91m'
+      green = '\033[92m'
+      End = '\033[0m'
+      blue = '\033[96m'
+      darkblue = '\033[34m'
+      org = '\033[33m'
+opt = color.green + "\n20 ~# " + color.End
+def cls():
+    os.system("clear")
+def menu():
+    os.system("printf '\033]2;20\a'")
+    cls()
+    print("""
+██████╗  ██████╗     ██████╗  ██████╗     ██████╗  ██████╗ 
+╚════██╗██╔═████╗    ╚════██╗██╔═████╗    ╚════██╗██╔═████╗
+ █████╔╝██║██╔██║     █████╔╝██║██╔██║     █████╔╝██║██╔██║
+██╔═══╝ ████╔╝██║    ██╔═══╝ ████╔╝██║    ██╔═══╝ ████╔╝██║
+███████╗╚██████╔╝    ███████╗╚██████╔╝    ███████╗╚██████╔╝
+╚══════╝ ╚═════╝     ╚══════╝ ╚═════╝     ╚══════╝ ╚═════╝ """ + color.red + """
+    version 1.2.3 """ + color.End)
+    print("\n{1}-Ping test")
+    print("{2}-DDos-Attack")
+    print("{3}-Portscan")
+    print("{4}-serverscan")
+    print("{5}-Hackingtools")
+    print("{6}-Cam-Hackers")
+    print("{7}-tools")
+    print("{8}-About Us")
+    print("{99}-Exit")
+    choose = input(opt)
+    if choose == '1':
+      ping()
+    elif choose == '2':
+        cls()
+        os.system("git clone https://github.com/msprogrammer2938/DDos-Attack")
+        time.sleep(1)
+        print(color.green + "\nDDos-Attack Installed!" + color.End)
+        try3()
+    elif choose == '3':
+        cls()
+        os.system("git clone https://github.com/msprogrammer2938/portscan")
+        print(color.green + "\nportscan Installed!" + color.End)
+        time.sleep(1)
+        try4()
+    elif choose == '4':
+        cls()
+        os.system("git clone https://github.com/msprogrammer2938/serverscan")
+        print(color.green + "\nserverscan Installed!" + color.End)
+        time.sleep(1)
+        try5()
+    elif choose == '5':
+        hackmenu()
+    elif choose == '6':
+        cls()
+        os.system("git clone https://github.com/msprogrammer2938/Cam-Hackers")
+        print(color.green + "\nCam-Hackers Installed!" + color.End)
+        time.sleep(1)
+        try6()
+    elif choose == '7':
+        cls()
+        os.system("git clone https://github.com/msprogrammer2938/PTool")
+        time.sleep(1)
+        try7()
+    elif choose == '8':
+        banner.about()
+    elif choose == '99':
+        cls()
+        print(color.green + "Exiting..." + color.End)
+        sys.exit()
+    elif choose == 'exit':
+        cls()
+        print(color.green + "Exiting..." + color.End)
+        sys.exit()
+    elif choose == 'quit':
+        cls()
+        print(color.green + "Exiting..." + color.End)
+        sys.exit()
+    elif choose == 'q':
+        cls()
+        print(color.green + "Exiting..." + color.End)
+        sys.exit()
+    elif choose == 'e':
+        cls()
+        print(color.green + "Exiting..."  + color.End)
+        sys.exit()
+    elif choose == '':
+        menu()
+    elif choose == ' ':
+        menu()
+    elif choose == '  ':
+        menu()
+    else:
+        cls()
+        print(choose + color.red + " Not Found!" + color.End)
+        Err2()
+def Err2():
+    Err3 = input("\npress Enter...")
+    if Err3 == '':
+      menu()
+    else:
+        menu()
+def hackmenu():
+    cls()
+    print(color.darkblue)
+    os.system("figlet Hacking")
+    print(color.End)
+    print("\n{1}-hackingtools")
+    print("{2}-hacktools")
+    print("{3}-mein menu")
+    choose2 = input(opt)
+    if choose2 == '1':
+      cls()
+      os.system("git clone https://github.com/msprogrammer2938/hackingtools")
+      print(color.green + "\nhackingtools Installed!" + color.End)
+      time.sleep(1)
+      try8()
+    elif choose2 == '2':
+        cls()
+        os.system("git clone https://github.com/msprogrammer2938/hacktools")
+        print(color.green + "\nhacktools Installed!" + color.End)
+        time.sleep(1)
+        try9()
+    else:
+        hackingmenu()
+def try1():
+    aga = input("Do you want to try again? [y/n] ")
+    if aga == 'y':
+      ping()
+    elif aga == 'n':
+        cls()
+        trymenu()
+    else:
+        try1()
+def ping():
+      cls()
+      ip = input("Enter ip: ")
+      time.sleep(2)
+      print(color.org)
+      os.system("ping " + ip)
+      print(color.End)
+      time.sleep(1)
+      try1()
+def trymenu():
+    again = input("Do you want back to mein menu? [y/n] ")
+    if again == 'y':
+      menu()
+    elif again == 'n':
+        cls()
+        print(color.green + "Exiting..." + color.End)
+        sys.exit()
+    else:
+        trymenu()
+if __name__ == '__main__':
+  try:
+     menu()
+  except KeyboardInterrupt:
+      print("\nCtrl + C")
+      print("\nExiting...")
+      exit(1)
+# 20
