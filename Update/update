@@ -1,0 +1,19 @@
+#!/usr/bin/bash
+# This code write by Ms.nope
+if [[ "$(id -u)" -ne 0 ]]; then
+  echo ""
+  echo "This programm run as Root!"
+  echo ""
+  exit 1
+fi
+clear
+echo "Updating..."
+sleep 1
+cd .. && rm -r 20 && git clone https://github.com/msprogrammer2938/20 && cd 20 && bash install.sh
+sleep 2
+echo ""
+echo "Finish Updating!"
+echo ""
+echo "usage: ./20"
+echo ""
+exit 1
