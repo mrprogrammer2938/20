@@ -1,0 +1,12 @@
+#!/usr/bin/bash
+# This code write by Ms.nope
+clear
+echo "removing..."
+sleep 3
+cd .. && sudo rm -r 20 
+echo ""
+echo "Finish!"
+echo ""
+echo "Dont Forget check https://github.com/msprogrammer2938"
+echo ""
+exit 1
