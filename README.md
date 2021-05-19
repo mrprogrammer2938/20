@@ -26,6 +26,10 @@ cd Update
 
 ./update
 ```
+###### uninstall...
+```
+./uninstall
+```
 
 ##### run Root...
 ```
