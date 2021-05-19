@@ -14,6 +14,7 @@ apt install pip
 pip install --upgrade pip
 pip install requirments.txt
 chmod +x 20
+chmod +x uninstall
 cd Update && chmod +x update
 sleep 1
 echo ""
