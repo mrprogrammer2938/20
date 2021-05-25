@@ -1,0 +1,14 @@
+Installing:
+            git clone https://github.com/msprogrammer2938/20
+            
+            cd 20
+            
+            bash install.sh
+            
+            ./20
+            
+-------------------------------------------------------
+Update:
+        cd Update
+        
+        ./update
