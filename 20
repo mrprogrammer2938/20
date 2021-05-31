@@ -109,6 +109,15 @@ def Err2():
       menu()
     else:
         menu()
+
+def tryping():
+      tryping2 = input("Do you want to try again? [y/n] ")
+      if tryping2 == 'y':
+            ping()
+      elif tryping2 == 'n':
+            try1()
+      else:
+            tryping()
 def hackmenu():
     cls()
     print(color.darkblue)
@@ -135,7 +144,7 @@ def hackmenu():
 def try1():
     aga = input("Do you want back to mein menu? [y/n] ")
     if aga == 'y':
-      ping()
+      menu()
     elif aga == 'n':
         cls()
         print(color.green + "Exiting..." + color.End)
