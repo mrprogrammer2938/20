@@ -1,4 +1,5 @@
 #!/usr/bin/bash
+# This code write by Mr.nope
 if [[ "$(id -u)" -ne 0 ]];then
   echo ""
   echo "Please run this programm as root!"
