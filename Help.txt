@@ -1,5 +1,5 @@
 Installing:
-            git clone https://github.com/msprogrammer2938/20
+            git clone https://github.com/mrprogrammer2938/20
             
             cd 20
             
