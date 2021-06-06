@@ -1,5 +1,5 @@
 #!/usr/bin/bash
-# This code write by Ms.nope
+# This code write by Mr.nope
 if [[ "$(id -u)" -ne 0 ]]; then
   echo ""
   echo "This programm run as Root!"
@@ -9,7 +9,7 @@ fi
 clear
 echo "Updating..."
 sleep 1
-cd .. && rm -r 20 && git clone https://github.com/msprogrammer2938/20 && cd 20 && bash install.sh
+cd .. && rm -r 20 && git clone https://github.com/mrprogrammer2938/20 && cd 20 && bash install.sh
 sleep 2
 echo ""
 echo "Finish Updating!"
