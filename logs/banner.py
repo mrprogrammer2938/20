@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# This code write by Ms.nope
+# This code write by Mr.nope
 import os
 import time
 import sys
@@ -13,11 +13,11 @@ def cls():
 def about():
     os.system("printf '\033]2;About\a'")
     cls()
-    os.system("figlet Ms.programmer")
+    os.system("figlet Mr.programmer")
     time.sleep(0.1)
     print(color.red + "\nThis code write by " + color.green + "Ms.nope" + color.End)
     time.sleep(0.3)
-    print(color.red + "\nGithub: " + color.blue + "https://github.com/msprogrammer2938" + color.End)
+    print(color.red + "\nGithub: " + color.blue + "https://github.com/mrprogrammer2938" + color.End)
     print("\nCode Name: 20")
     time.sleep(2)
     try1()
