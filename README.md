@@ -44,7 +44,7 @@ cd Update
 sudo su
 ```
 
-## [Ms.nope](https://github.com/mrprogrammer2938) Account...
+## [Mr.nope](https://github.com/mrprogrammer2938) Account...
 [Instagram](https://instagram.com/programmer2938)
 
 ## [LICENSE](https://github.com/mrprogrammer2938/20/blob/main/LICENSE)
