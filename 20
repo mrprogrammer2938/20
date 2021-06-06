@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# This code write by Ms.nope
+# This code write by Mr.nope
 from colorama import Fore,init
 from logs import banner
 import os
@@ -27,7 +27,7 @@ def menu():
 ██╔═══╝ ████╔╝██║    ██╔═══╝ ████╔╝██║    ██╔═══╝ ████╔╝██║
 ███████╗╚██████╔╝    ███████╗╚██████╔╝    ███████╗╚██████╔╝
 ╚══════╝ ╚═════╝     ╚══════╝ ╚═════╝     ╚══════╝ ╚═════╝ """ + color.red + """
-    version 1.2.3 """ + color.End)
+    (version 1.2.3) """ + color.End)
     print("\n{1}-Ping test")
     print("{2}-DDos-Attack")
     print("{3}-Portscan")
@@ -42,19 +42,19 @@ def menu():
       ping()
     elif choose == '2':
         cls()
-        os.system("git clone https://github.com/msprogrammer2938/DDos-Attack")
+        os.system("git clone https://github.com/mrprogrammer2938/DDos-Attack")
         time.sleep(1)
         print(color.green + "\nDDos-Attack Installed!" + color.End)
         try3()
     elif choose == '3':
         cls()
-        os.system("git clone https://github.com/msprogrammer2938/portscan")
+        os.system("git clone https://github.com/mrprogrammer2938/portscan")
         print(color.green + "\nportscan Installed!" + color.End)
         time.sleep(1)
         try4()
     elif choose == '4':
         cls()
-        os.system("git clone https://github.com/msprogrammer2938/serverscan")
+        os.system("git clone https://github.com/mrprogrammer2938/serverscan")
         print(color.green + "\nserverscan Installed!" + color.End)
         time.sleep(1)
         try5()
@@ -62,13 +62,13 @@ def menu():
         hackmenu()
     elif choose == '6':
         cls()
-        os.system("git clone https://github.com/msprogrammer2938/Cam-Hackers")
+        os.system("git clone https://github.com/mrprogrammer2938/Cam-Hackers")
         print(color.green + "\nCam-Hackers Installed!" + color.End)
         time.sleep(1)
         try6()
     elif choose == '7':
         cls()
-        os.system("git clone https://github.com/msprogrammer2938/PTool")
+        os.system("git clone https://github.com/mrprogrammer2938/PTool")
         time.sleep(1)
         try7()
     elif choose == '8':
@@ -129,13 +129,13 @@ def hackmenu():
     choose2 = input(opt)
     if choose2 == '1':
       cls()
-      os.system("git clone https://github.com/msprogrammer2938/hackingtools")
+      os.system("git clone https://github.com/mrprogrammer2938/hackingtools")
       print(color.green + "\nhackingtools Installed!" + color.End)
       time.sleep(1)
       try8()
     elif choose2 == '2':
         cls()
-        os.system("git clone https://github.com/msprogrammer2938/hacktools")
+        os.system("git clone https://github.com/mrprogrammer2938/hacktools")
         print(color.green + "\nhacktools Installed!" + color.End)
         time.sleep(1)
         try9()
